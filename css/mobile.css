@@ -1,0 +1,402 @@
+@media screen and (max-width: 767px) {
+  /* Home Page */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .home {
+    padding-top: 115px;
+  }
+
+  .navopen-home {
+    padding-top: 210px;
+  }
+
+  .main-content {
+    padding: 0;
+  }
+
+  .mobile-aside {
+    background-color: #fdf9ff;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: block;
+  }
+
+  .mobile-aside > ul {
+    background-color: #fdf9ff;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  .mobile-aside hr {
+    width: 0;
+  }
+
+  .logo {
+    display: inline-block;
+    margin: 10px 205px 10px 20px;
+  }
+
+  .logo > a {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .mobile-aside > i {
+    font-size: 20px;
+    color: #302e4d;
+  }
+
+  .responsive-nav {
+    display: none;
+  }
+
+  .active-link {
+    color: #ec1939;
+  }
+
+  /* About Page */
+
+  .about {
+    padding-left: 4% !important;  
+  }
+
+  .about > h1 {
+    margin: 18% auto auto 0;
+  }
+
+  .about-myself > h2 {
+    margin: 60px auto 20px 0;
+  }
+
+  .about-myself > p {
+    margin: auto auto 20px 0;
+    padding-right: 32px;
+  }
+
+  .personal-info {
+    display: block;
+    width: 100%;
+  }
+
+  .personal-info > .col-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .personal-info > .col-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .col-1 > p {
+    padding: 5px 5px 5px 0;
+  }
+
+  .col-2 > p {
+    padding: 5px 5px 5px 0;
+  }
+
+  .col-2 .city {
+    margin-bottom: 20px;
+  }
+
+  .download-resume {
+    margin: 30px 70px;
+  }
+
+  .skill-level {
+    display: block;
+    width: 100%;
+  }
+
+  .skill {
+    width: 100%;
+  }
+
+  .skill > .skill-html {
+    margin-right: 60%;
+  }
+
+  .skill > .skill-css {
+    margin-right: 65%;
+  }
+
+  .skill > .skill-js {
+    margin-right: 46%;
+  }
+
+  .skill > .skill-react {
+    margin-right: 52%;
+  }
+
+  .skill > .html-level {
+    width: 60%;
+  }
+
+  .skill > .html-balance-level {
+    width: 38%;
+  }
+
+  .skill > .css-level {
+    width: 60%;
+  }
+
+  .skill > .css-balance-level {
+    width: 38%;
+  }
+
+  .skill > .js-level {
+    width: 70%;
+  }
+
+  .skill > .js-balance-level {
+    width: 28%;
+  }
+
+  .skill > .react-level {
+    width: 40%;
+  }
+
+  .skill > .react-balance-level {
+    width: 58%;
+  }
+
+  .projects-achievements {
+    display: block;
+  }
+
+  .projects {
+    width: 95%;
+    padding: 40px 10px;
+  }
+
+  .projects-body {
+    width: 95%;
+  }
+
+  .bulletpoint-line {
+    display: block;
+    background-color: #ec1939;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 20px;
+  }
+
+  .projects .project-title, .academics .project-title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .projects .project-description, .academics .project-description  {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .projects .project-link {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .bulletpoint-line1 {
+    display: block;
+    background-color: #ec1939;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 20px;
+  }
+
+  .achievements-body {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .achievements-body > .achievement-description {
+    margin-bottom: 15px;
+  }
+
+  .achievements-body > p {
+    font-size: 15px;
+  }
+
+  .academic-background {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .academics {
+    width: 95%;
+    padding: 40px 10px;
+    position: static;
+  }
+
+  .academics-title {
+    position: static;
+  }
+
+  .bulletpoint-line-academics {
+    display: block;
+    background-color: #ec1939;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 20px;
+  }
+
+  .bulletpoint-line-mobile, .bulletpoint-line-academics-mobile {
+    display: block;
+    background-color: #ec1939;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+  }
+
+  section {
+      margin-bottom: 10px;
+  }
+
+  /* contact section */
+
+  .section {
+    padding-left: 0;
+  }
+
+  .contact .underline-20 {
+    margin-left: 4%;
+  }
+
+  .contact .underline-10 {
+    margin-left: 4%;
+  }
+
+  .contact > h1 {
+    margin: 18% auto auto 4%;
+  }
+
+  .contact > .call-me {
+    margin-top: 20px;
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+  }
+
+  .contact > .address {
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+  }
+
+  .contact > .email {
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+  }
+
+  form > #name, form > #email, form > #subject {
+    margin: 20px 20px 20px 0;
+    width: 80%;
+    height: 45px;
+  }
+  
+  form > #message {
+    margin: 20px 20px 20px 0;
+    padding: 25px;
+    border: 2px solid #e8dfec;
+    height: 197px;
+    width: 80%;
+  }
+
+  form > .submit {
+    display: block;
+    margin: 20px 23px;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .aside {
+    width: 23%;
+  }
+
+  .main-content {
+    padding-left: 235px;
+  }
+
+  .aside .logo > a {
+    padding: 4px;
+  }
+
+  .personal-info {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .download {
+    margin: 5% auto;
+  }
+
+  .skill-level {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .projects {
+    width: 90%;
+  }
+
+  .academics-title {
+    margin-top: 10%;
+    position: static;
+    width: 120%;
+  }
+
+  .academics {
+    position: static;
+    width: 120%;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .aside {
+    width: 17.7%;
+  }
+
+  .academics-title {
+    left: 120%;
+    top: -443px;
+  }
+
+  .academics {
+    position: relative;
+    width: 95%;
+    top: -425px;
+    left: 645px;
+  }
+
+  .bulletpoint-line-academics {
+    display: inline-block;
+    background-color: #ec1939;
+    width: 3px;
+    height: 115px;
+    margin-right: 20px;
+  }
+}
+
+
